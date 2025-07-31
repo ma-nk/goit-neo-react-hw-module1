@@ -1,0 +1,56 @@
+.profileContainer {
+  margin: 20px auto 40px auto;
+  padding-top: 16px;
+  background-color: rgb(255, 253, 251);
+  max-width: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.userWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.userAvatar {
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  margin-bottom: 28px;
+}
+.username {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.userTag,
+.userLocation {
+  color: rgb(139, 139, 139);
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.statsList {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(218, 217, 217);
+  border-radius: 0 0 7px 7px;
+}
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 32px;
+  font-size: 32px;
+  border-top: 2px solid rgb(139, 139, 139);
+  width: 100%;
+}
+.statsItem:not(:last-child) {
+  border-right: 2px solid rgb(139, 139, 139);
+}
+.statsSpan {
+  font-weight: 700;
+}

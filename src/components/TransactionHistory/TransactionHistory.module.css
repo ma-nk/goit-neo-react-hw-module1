@@ -1,0 +1,20 @@
+.table {
+  margin: 0 auto 20px auto;
+  text-transform: capitalize;
+  text-align: center;
+  width: 600px;
+  table-layout: fixed;
+}
+.tableHeader {
+  background-color: rgb(61, 61, 61);
+  color: #fff;
+  font-weight: 700;
+}
+.tableBodyRow:nth-child(2n) {
+  background-color: #afafaf;
+}
+.tableHeaderColumn,
+.tableBodyItem {
+  border: 1px solid #000;
+  padding: 8px 0;
+}
